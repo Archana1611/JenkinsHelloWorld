@@ -15,7 +15,7 @@ public class JenkinsTest {
 	@Test
 	public void Subtest() {
 		Jenkins mycal = new Jenkins();
-		assertEquals(5,mycal.SubNum(10,5));
+		assertEquals(10,mycal.SubNum(10,5));
 	}
 
 }
